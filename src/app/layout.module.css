@@ -1,0 +1,42 @@
+.Container{
+    border: solid thin black;
+    margin: 0;
+}
+
+.Row{
+    border: solid thin grey;
+    margin: 10px 5px;
+}
+
+.minhaColuna1{
+    background-color: rgb(33,46,62);
+    margin: 5px;
+    border-radius: 5px;
+    font-size: x-large;
+    list-style: none;
+    text-align: center;
+}
+
+.minhaColuna1 > ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.minhaColuna1 > ul > li{
+    margin: 10px;
+}
+
+.minhaColuna1 > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.minhaColuna1 > ul > li > a:hover{
+    color: rgb(40,255,82);
+}
+
+.minhaColuna2{
+    margin-left: 10px;
+    border: solid thin grey;
+    margin: 5px
+}
